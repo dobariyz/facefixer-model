@@ -26,4 +26,4 @@ jobs:
       
       - name: Push to Replicate
         run: |
-          cog push r8.im/dobarifyz/facefixer
+          cog push r8.im/dobariyz/facefixer
