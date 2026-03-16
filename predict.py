@@ -6,7 +6,7 @@ import json
 class Predictor(BasePredictor):
     def setup(self):
         """Load the model into memory"""
-        self.model = YOLO("facefixer.pt")
+        self.model = YOLO("my_model.pt")
 
     def predict(
         self,
